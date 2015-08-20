@@ -263,3 +263,6 @@ DEPENDENCIES
   uglifier
   validates_formatting_of
   webmock
+
+BUNDLED WITH
+   1.10.6

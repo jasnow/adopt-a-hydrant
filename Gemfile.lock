@@ -52,7 +52,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.9.1.1)
-    coveralls (0.8.2)
+    coveralls (0.8.3)
       json (~> 1.8)
       rest-client (>= 1.6.8, < 2)
       simplecov (~> 0.10.0)
@@ -194,7 +194,7 @@ GEM
       json (~> 1.8)
       simplecov-html (~> 0.10.0)
     simplecov-html (0.10.0)
-    skylight (0.8.0)
+    skylight (0.8.1)
       activesupport (>= 3.0.0)
     spring (1.4.0)
     sprockets (3.3.5)

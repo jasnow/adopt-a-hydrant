@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   devise_for :users, controllers: {
     passwords: 'passwords',
     registrations: 'users',
-    sessions: 'sessions',
+    sessions: 'sessions'
   }
 
   get '/address', to: 'addresses#show', as: 'address'

@@ -15,8 +15,6 @@ gem 'rails_admin'
 gem 'validates_formatting_of'
 gem 'overcommit'
 
-gem 'parser', '2.3.0.pre.6' # WORK-AROUND for Ruby 2.2.4
-
 platforms :ruby_18 do
   gem 'fastercsv'
 end

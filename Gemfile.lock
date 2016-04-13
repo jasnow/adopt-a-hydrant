@@ -71,7 +71,7 @@ GEM
     execjs (2.6.0)
     fastercsv (1.5.5)
     ffi (1.9.10)
-    font-awesome-rails (4.6.0.0)
+    font-awesome-rails (4.6.1.0)
       railties (>= 3.2, < 5.1)
     geokit (1.10.0)
     globalid (0.3.6)
@@ -213,7 +213,7 @@ GEM
       activemodel
     warden (1.2.6)
       rack (>= 1.0)
-    webmock (1.24.2)
+    webmock (1.24.3)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
       hashdiff

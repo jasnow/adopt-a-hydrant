@@ -237,7 +237,7 @@ DEPENDENCIES
   rails (~> 4.2.6)
   rails_12factor
   rails_admin
-  rubocop
+  rubocop (= 0.40.0)
   sass-rails
   simplecov
   skylight

@@ -35,7 +35,7 @@ end
 
 group :test do
   gem 'coveralls', require: false
-  gem 'rubocop'
+  gem 'rubocop', '0.40.0' # LOCKED DOWN
   gem 'simplecov', require: false
   gem 'sqlite3'
   gem 'webmock'

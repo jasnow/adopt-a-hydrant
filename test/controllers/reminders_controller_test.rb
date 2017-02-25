@@ -2,7 +2,7 @@
 require 'test_helper'
 
 class RemindersControllerTest < ActionController::TestCase
-  include Devise::TestHelpers
+  include Devise::Test::ControllerHelpers
   setup do
     request.env['devise.mapping'] = Devise.mappings[:user]
     @thing = things(:thing_1)

@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 source 'https://rubygems.org'
-ruby '2.3.1'
+ruby '2.4.0'
 
-gem 'rails', '~> 4.2.6'
+gem 'rails', '4.2.8'
 
 gem 'arel'
 gem 'devise'
@@ -10,11 +10,11 @@ gem 'geokit'
 gem 'haml'
 gem 'http_accept_language'
 gem 'nokogiri'
+gem 'overcommit'
 gem 'pg'
 gem 'rails_12factor'
 gem 'rails_admin'
 gem 'validates_formatting_of'
-gem 'overcommit'
 
 platforms :ruby_18 do
   gem 'fastercsv'

@@ -6,7 +6,7 @@ require 'coveralls'
 
 SimpleCov.formatters = [SimpleCov::Formatter::HTMLFormatter, Coveralls::SimpleCov::Formatter]
 SimpleCov.start('rails') do
-  minimum_coverage(96.11)
+  minimum_coverage(95.58)
 end
 
 require File.expand_path('../../config/environment', __FILE__)

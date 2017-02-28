@@ -3,10 +3,10 @@ source 'https://rubygems.org'
 ruby '2.4.0'
 
 gem 'rails', '5.1.0.beta1'
-gem 'erubis'
 
 gem 'arel'
 gem 'devise'
+gem 'erubis'
 gem 'geokit'
 gem 'haml'
 gem 'http_accept_language'
@@ -37,8 +37,8 @@ end
 
 group :test do
   gem 'coveralls', require: false
-  gem 'rubocop'
   gem 'rails-controller-testing'
+  gem 'rubocop'
   gem 'simplecov', require: false
   gem 'sqlite3'
   gem 'webmock'

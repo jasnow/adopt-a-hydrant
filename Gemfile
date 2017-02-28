@@ -2,7 +2,8 @@
 source 'https://rubygems.org'
 ruby '2.4.0'
 
-gem 'rails', '4.2.8'
+gem 'rails', '5.1.0.beta1'
+gem 'erubis'
 
 gem 'arel'
 gem 'devise'
@@ -37,6 +38,7 @@ end
 group :test do
   gem 'coveralls', require: false
   gem 'rubocop'
+  gem 'rails-controller-testing'
   gem 'simplecov', require: false
   gem 'sqlite3'
   gem 'webmock'

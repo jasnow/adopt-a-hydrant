@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 class InfoWindowController < ApplicationController
   def index
     @thing = Thing.find_by_id(params[:thing_id])

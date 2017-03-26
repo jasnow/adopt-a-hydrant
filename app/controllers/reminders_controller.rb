@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 class RemindersController < ApplicationController
   respond_to :json
 

@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 class AddDeviseToUsers < ActiveRecord::Migration
   def up
     change_table(:users) do |t|

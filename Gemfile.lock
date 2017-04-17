@@ -77,8 +77,8 @@ GEM
     font-awesome-rails (4.7.0.1)
       railties (>= 3.2, < 5.1)
     geokit (1.11.0)
-    globalid (0.3.7)
-      activesupport (>= 4.1.0)
+    globalid (0.4.0)
+      activesupport (>= 4.2.0)
     haml (4.0.7)
       tilt
     hashdiff (0.3.2)

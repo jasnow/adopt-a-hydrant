@@ -10,12 +10,13 @@ gem 'devise', git: 'https://github.com/plataformatec/devise' # LOCKED DOWN
 gem 'erubis'
 gem 'geokit'
 gem 'haml'
+
 gem 'http_accept_language'
 gem 'nokogiri'
 gem 'overcommit'
 gem 'pg'
 gem 'rails_12factor'
-gem 'rails_admin'
+gem 'rails_admin', git: 'https://github.com/sferik/rails_admin'
 gem 'validates_formatting_of'
 
 platforms :ruby_18 do

@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: https://github.com/sferik/rails_admin
-  revision: 4e8c6c7e9fb4fa35ef8051c063a0b1f3be76d517
+  revision: 2ec766e804870503f96cddac15fca603e3dd76c9
   specs:
     rails_admin (1.1.1)
       builder (~> 3.1)
@@ -152,7 +152,7 @@ GEM
     powerpack (0.1.1)
     public_suffix (2.0.5)
     puma (3.8.2)
-    rack (2.0.1)
+    rack (2.0.2)
     rack-pjax (1.0.0)
       nokogiri (~> 1.5)
       rack (>= 1.1)

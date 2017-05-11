@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 ruby '2.4.1'
 
 gem 'rails', '5.1.0'
+gem 'minitest', '5.10.1' # 5/11/2017: ADDED TO STOP UPGRADE.
 
 gem 'arel'
 gem 'devise', git: 'https://github.com/plataformatec/devise' # LOCKED DOWN

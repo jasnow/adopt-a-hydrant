@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/plataformatec/devise
-  revision: a62faa2c8258ba1c35fe84e147f42c35eccccb8a
+  revision: ee01bac8b0b828b3da0d79c46115ba65c433d6c8
   specs:
-    devise (4.2.1)
+    devise (4.3.0)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
       railties (>= 4.1.0, < 5.2)
@@ -174,9 +174,9 @@ GEM
       actionpack (~> 5.x)
       actionview (~> 5.x)
       activesupport (~> 5.x)
-    rails-dom-testing (2.0.2)
-      activesupport (>= 4.2.0, < 6.0)
-      nokogiri (~> 1.6)
+    rails-dom-testing (2.0.3)
+      activesupport (>= 4.2.0)
+      nokogiri (>= 1.6)
     rails-html-sanitizer (1.0.3)
       loofah (~> 2.0)
     rails_12factor (0.0.3)
@@ -265,6 +265,7 @@ DEPENDENCIES
   geokit
   haml
   http_accept_language
+  minitest (= 5.10.1)
   nokogiri
   overcommit
   pg

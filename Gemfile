@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 ruby '2.4.1'
 
-gem 'rails', '5.1.0'
+gem 'rails', '5.1.1'
 
 gem 'arel'
 gem 'devise', git: 'https://github.com/plataformatec/devise' # LOCKED DOWN
@@ -12,7 +12,7 @@ gem 'geokit'
 gem 'haml'
 
 gem 'http_accept_language'
-gem 'minitest', '5.10.1' # 5/11/2017: ADDED TO STOP UPGRADE.
+gem 'minitest'
 gem 'nokogiri'
 gem 'overcommit'
 gem 'pg'

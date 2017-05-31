@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/sferik/rails_admin
-  revision: f521633d82dc75b73928d84ea7be5fc1934482d0
+  revision: 3d12fd1b6ea4ab70f149cd6a70deb3ca18207083
   specs:
-    rails_admin (1.1.1)
+    rails_admin (1.2.0)
       builder (~> 3.1)
       coffee-rails (~> 4.0)
       font-awesome-rails (>= 3.0, < 5)
@@ -102,7 +102,7 @@ GEM
       tilt
     hashdiff (0.3.4)
     http_accept_language (2.1.0)
-    i18n (0.8.1)
+    i18n (0.8.4)
     iniparse (1.4.2)
     jquery-rails (4.3.1)
       rails-dom-testing (>= 1, < 3)

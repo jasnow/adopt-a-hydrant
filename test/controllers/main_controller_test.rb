@@ -22,8 +22,8 @@ class MainControllerTest < ActionController::TestCase
     get :index
     assert_response :success
     assert_select 'form' do
-      assert_select '[action=?]'.dup, '/address'
-      assert_select '[method=?]'.dup, 'get'
+      assert_select '[action=?]', '/address'
+      assert_select '[method=?]', 'get'
     end
     assert_select 'label#city_state_label', 'City'
     assert_select 'select#city_state' do
@@ -32,8 +32,8 @@ class MainControllerTest < ActionController::TestCase
     assert_select 'label#address_label', 'Address, Neighborhood'
     assert_select 'input#address', true
     assert_select 'input[name="commit"]' do
-      assert_select '[type=?]'.dup, 'submit'
-      assert_select '[value=?]'.dup, 'Find hydrants'
+      assert_select '[type=?]', 'submit'
+      assert_select '[value=?]', 'Find hydrants'
     end
     assert_select 'div#map', true
   end

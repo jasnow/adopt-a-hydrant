@@ -14,14 +14,14 @@ class UsersControllerTest < ActionController::TestCase
     get :edit
     assert_response :success
     assert_select 'form#edit_form' do
-      assert_select '[action=?]'.dup, '/users'
-      assert_select '[method=?]'.dup, 'post'
+      assert_select '[action=?]', '/users'
+      assert_select '[method=?]', 'post'
     end
     assert_select 'input', count: 15
     assert_select 'label', count: 12
     assert_select 'input[name="commit"]' do
-      assert_select '[type=?]'.dup, 'submit'
-      assert_select '[value=?]'.dup, 'Update'
+      assert_select '[type=?]', 'submit'
+      assert_select '[value=?]', 'Update'
     end
     assert_select 'a.btn', 'Back'
   end

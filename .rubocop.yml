@@ -28,7 +28,7 @@ Metrics/ParameterLists:
   Max: 4
   CountKeywordArgs: true
 
-Style/AccessModifierIndentation:
+Layout/AccessModifierIndentation:
   EnforcedStyle: outdent
 
 Style/CollectionMethods:
@@ -41,7 +41,7 @@ Style/CollectionMethods:
 Style/Documentation:
   Enabled: false
 
-Style/DotPosition:
+Layout/DotPosition:
   EnforcedStyle: trailing
 
 Style/DoubleNegation:
@@ -50,7 +50,7 @@ Style/DoubleNegation:
 Style/FrozenStringLiteralComment:
   Enabled: false
 
-Style/SpaceInsideHashLiteralBraces:
+Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
 
 Style/WordArray:

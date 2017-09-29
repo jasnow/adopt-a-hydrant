@@ -20,16 +20,16 @@ class InfoWindowControllerTest < ActionController::TestCase
     assert_template 'users/thank_you'
     assert_select 'h2', 'Thank you for adopting this hydrant!'
     assert_select 'form#abandon_form' do
-      assert_select '[action=?]'.dup, '/things'
-      assert_select '[method=?]'.dup, 'post'
+      assert_select '[action=?]', '/things'
+      assert_select '[method=?]', 'post'
     end
     assert_select 'input[name="_method"]' do
-      assert_select '[type=?]'.dup, 'hidden'
-      assert_select '[value=?]'.dup, 'put'
+      assert_select '[type=?]', 'hidden'
+      assert_select '[value=?]', 'put'
     end
     assert_select 'input[name="commit"]' do
-      assert_select '[type=?]'.dup, 'submit'
-      assert_select '[value=?]'.dup, 'Abandon this hydrant'
+      assert_select '[type=?]', 'submit'
+      assert_select '[value=?]', 'Abandon this hydrant'
     end
   end
 
@@ -51,16 +51,16 @@ class InfoWindowControllerTest < ActionController::TestCase
     assert_template :adopt
     assert_select 'h2', 'Adopt this Hydrant'
     assert_select 'form#adoption_form' do
-      assert_select '[action=?]'.dup, '/things'
-      assert_select '[method=?]'.dup, 'post'
+      assert_select '[action=?]', '/things'
+      assert_select '[method=?]', 'post'
     end
     assert_select 'input[name="_method"]' do
-      assert_select '[type=?]'.dup, 'hidden'
-      assert_select '[value=?]'.dup, 'put'
+      assert_select '[type=?]', 'hidden'
+      assert_select '[value=?]', 'put'
     end
     assert_select 'input[name="commit"]' do
-      assert_select '[type=?]'.dup, 'submit'
-      assert_select '[value=?]'.dup, 'Adopt!'
+      assert_select '[type=?]', 'submit'
+      assert_select '[value=?]', 'Adopt!'
     end
   end
 

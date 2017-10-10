@@ -35,7 +35,7 @@ end
 
 group :production do
   gem 'puma'
-  gem 'skylight', '1.4.0.beta.2'
+  gem 'skylight'
 end
 
 group :test do

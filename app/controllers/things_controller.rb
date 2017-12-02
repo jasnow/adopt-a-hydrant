@@ -13,7 +13,7 @@ class ThingsController < ApplicationController
   end
 
   def update
-    @thing = Thing.where("id = ?", params[:id]).first
+    @thing = Thing.where('id = ?', params[:id]).first
     if @thing.update_attributes(thing_params)
       respond_with @thing
     else

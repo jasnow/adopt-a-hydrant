@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
 source 'https://rubygems.org'
-ruby '2.4.3'
+ruby '2.5.0'
 
 gem 'rails', '5.2.0.beta2'
 
 gem 'arel'
-gem 'devise'
+gem 'devise', git: 'https://github.com/plataformatec/devise' # 12/25/2017: LOCKED DOWN
 gem 'erubis'
 gem 'geokit'
 gem 'haml'

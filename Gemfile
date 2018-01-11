@@ -15,7 +15,7 @@ gem 'http_accept_language'
 gem 'minitest'
 gem 'nokogiri'
 gem 'overcommit'
-gem 'pg'
+gem 'pg', '0.21.0' # 1/11/2018: LOCKED DOWN
 gem 'rails_12factor'
 gem 'rails_admin'
 gem 'validates_formatting_of'

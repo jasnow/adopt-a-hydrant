@@ -10,6 +10,7 @@ gem 'devise'
 gem 'erubis'
 gem 'geokit'
 gem 'haml'
+gem 'rest-client'
 
 gem 'http_accept_language'
 gem 'minitest'

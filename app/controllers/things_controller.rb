@@ -14,7 +14,7 @@ class ThingsController < ApplicationController
 
   def update
     @thing = Thing.where('id = ?', params[:id]).first
-    if @thing.update_attributes(thing_params)
+    if @thing.update(thing_params)
       respond_with @thing
     else
       render(json: {errors: @thing.errors}, status: 500)

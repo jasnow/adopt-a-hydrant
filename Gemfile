@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 ruby '2.6.0'
 
-gem 'rails', '5.2.0.rc1'
+gem 'rails', '5.2.0.rc2'
 
 gem 'arel'
 gem 'devise'

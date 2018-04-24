@@ -1,4 +1,4 @@
-before_script: rake db:create db:schema:load
+before_script: bundle exec rake db:create db:schema:load
 bundler_args: "--without assets:development:production"
 cache: bundler
 language: ruby

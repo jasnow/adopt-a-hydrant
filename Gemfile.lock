@@ -80,7 +80,7 @@ GEM
     erubis (2.7.0)
     execjs (2.7.0)
     fastercsv (1.5.5)
-    ffi (1.9.24)
+    ffi (1.9.25)
     font-awesome-rails (4.7.0.4)
       railties (>= 3.2, < 6.0)
     geokit (1.12.0)
@@ -270,7 +270,7 @@ GEM
       activemodel
     warden (1.2.7)
       rack (>= 1.0)
-    webmock (3.4.1)
+    webmock (3.4.2)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
       hashdiff

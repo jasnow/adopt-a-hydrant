@@ -20,7 +20,7 @@ class Thing < ActiveRecord::Base
       FROM things
       ORDER BY distance
       LIMIT ?
-      SQL
+    SQL
     find_by_sql([query, lat.to_f, lng.to_f, lat.to_f, limit.to_i])
   end
 

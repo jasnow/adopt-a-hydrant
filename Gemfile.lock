@@ -146,7 +146,7 @@ GEM
     pg (1.0.0)
     powerpack (0.1.2)
     public_suffix (3.0.2)
-    puma (3.11.4)
+    puma (3.12.0)
     rack (2.0.5)
     rack-pjax (1.0.0)
       nokogiri (~> 1.5)
@@ -261,7 +261,7 @@ GEM
     tins (1.16.3)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-    uglifier (4.1.14)
+    uglifier (4.1.15)
       execjs (>= 0.3.0, < 3)
     unf (0.1.4)
       unf_ext

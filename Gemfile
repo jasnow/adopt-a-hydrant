@@ -32,6 +32,7 @@ end
 
 group :development do
   gem 'spring'
+  gem 'rubocop-rspec'
 end
 
 group :production do

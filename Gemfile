@@ -31,8 +31,8 @@ group :assets do
 end
 
 group :development do
-  gem 'spring'
   gem 'rubocop-rspec'
+  gem 'spring'
 end
 
 group :production do

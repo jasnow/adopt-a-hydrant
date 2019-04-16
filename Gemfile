@@ -44,6 +44,7 @@ group :test do
   gem 'coveralls', require: false
   gem 'rails-controller-testing'
   gem 'rubocop'
+  gem 'rubocop-performance'
   gem 'simplecov', require: false
   gem 'sqlite3'
   gem 'webmock'

@@ -18,7 +18,7 @@ gem 'nokogiri'
 gem 'overcommit'
 gem 'pg'
 gem 'rails_12factor'
-gem 'rails_admin'
+gem 'rails_admin', '2.0.0.beta' # 6/8/2019: LOCKED DOWN
 gem 'validates_formatting_of'
 
 platforms :ruby_18 do

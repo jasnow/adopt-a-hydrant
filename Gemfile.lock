@@ -91,7 +91,7 @@ GEM
     haml (5.1.1)
       temple (>= 0.8.0)
       tilt
-    hashdiff (0.4.0)
+    hashdiff (1.0.0.beta1)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
     http_accept_language (2.1.1)
@@ -303,6 +303,7 @@ DEPENDENCIES
   fastercsv
   geokit
   haml
+  hashdiff (= 1.0.0.beta1)
   http_accept_language
   minitest
   nokogiri

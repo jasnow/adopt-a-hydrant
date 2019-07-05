@@ -47,5 +47,6 @@ group :test do
   gem 'rubocop-performance'
   gem 'simplecov', require: false
   gem 'sqlite3'
+  gem 'hashdiff', '1.0.0.beta1' # 7/5/2019: Added to try to fix warning msg
   gem 'webmock'
 end

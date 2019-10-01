@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module ApplicationHelper
-  def us_states # rubocop:disable MethodLength
+  def us_states # rubocop:disable Metrics/MethodLength
     [
       ['Massachusetts', 'MA'],
       ['Alabama', 'AL'],

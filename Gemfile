@@ -6,6 +6,7 @@ ruby '2.7.0'
 gem 'rails', '5.2.3'
 
 gem 'arel'
+gem 'brakeman'
 gem 'devise'
 gem 'erubis'
 gem 'geokit'
@@ -20,7 +21,6 @@ gem 'pg'
 gem 'rails_12factor'
 gem 'rails_admin'
 gem 'validates_formatting_of'
-gem 'brakeman'
 
 platforms :ruby_18 do
   gem 'fastercsv'

@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 ruby '2.7.0'
 
-gem 'rails', '5.2.3'
+gem 'rails', '5.2.4.rc1'
 
 gem 'arel'
 gem 'brakeman'

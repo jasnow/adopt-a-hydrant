@@ -3,7 +3,7 @@ bundler_args: "--without assets:development:production"
 cache: bundler
 language: ruby
 rvm:
-  - 2.7.0-preview1
+  - 2.7.0-preview3
 before_install:
   - gem update --system
   - gem update bundler

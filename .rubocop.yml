@@ -67,3 +67,9 @@ Layout/SpaceInsideHashLiteralBraces:
 Style/WordArray:
   Exclude:
     - 'app/helpers/application_helper.rb'
+
+Lint/RaiseException:
+  Enabled: true
+
+Lint/StructNewOverride:
+  Enabled: true
